@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact-forms</title>
+</head>
+
+<body>
+  <div class="flex justify-center items-center mt-24">
+    <div class="bg-gray-50 rounded-md px-32 py-12">
+      <div>
+        <label for="price" class="block text-base font-medium text-gray-700">Price</label>
+        <div class="relative mt-1 rounded-md shadow-sm">
+          <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+            <span class="text-gray-500 sm:text-sm">$</span>
+          </div>
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="0.00">
+          <div class="absolute inset-y-0 right-0 flex items-center">
+            <label for="currency" class="sr-only">Currency</label>
+            <select id="currency" name="currency"
+              class="h-full rounded-md border-transparent bg-transparent py-0 pl-2 pr-7 text-gray-500 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              <option>USD</option>
+              <option>CAD</option>
+              <option>EUR</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd input------- -->
+
+
+      <div>
+        <label for="price" class="block text-base font-medium text-gray-400 mt-8">Email</label>
+
+        <div class=" mt-1 rounded-md  items-center ">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md shadow-sm border-gray-300 pl-3 placeholder:text-gray-400 pr-6 placeholder:text-sm font-semibold focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="you@example.com">
+
+          <h2 class="text-gray-400 pt-2  text-sm font-medium">we'll only use this for spam</h2>
+
+
+        </div>
+      </div>
+
+      <!-- 3rd input------ -->
+
+
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-7">Email</label>
+
+        <div class=" mt-1 rounded-md relative">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md shadow-sm border-red-300 pl-3 placeholder:text-red-300 pr-9 placeholder:font-semibold placeholder:text-sm font-bold focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="you@example.com">
+
+          <h2 class="text-red-300 pt-2 font-semibold text-sm">Your password must be less than 4 characters</h2>
+
+          <h2 class="absolute top-2 text-sm right-3 text-white bg-red-500 rounded-full py-0 px-2">!</h2>
+        </div>
+      </div>
+
+
+
+      <!-- 4th input -->
+      <div>
+        <div class="flex items-center justify-between">
+          <label for="price" class="block text-base font-semibold text-gray-400 mt-7">Email</label>
+
+          <label for="price" class="block text-sm font-medium text-gray-300 mt-4">.optional</label>
+        </div>
+
+        <div class=" mt-1 rounded-md">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md shadow-sm border-gray-300 pl-3 placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:text-sm  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="you@example.com">
+        </div>
+      </div>
+
+
+      <!-- 5th input -->
+
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-7">Email</label>
+
+        <div class=" mt-1 rounded-md relative">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md shadow-sm border-gray-300 pl-9 placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:pl-1 placeholder:text-sm font-bold focus:border-indigo-500  focus:ring-indigo-500 sm:text-sm"
+            placeholder="you@example.com">
+
+          <img class="absolute top-2 left-3 w-6 h-6 z-10 " src="./images/icons8-secured-letter-96.png" alt="">
+
+        </div>
+      </div>
+
+
+
+      <!-- 6th input -->
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-9">Account Number</label>
+
+        <div class=" mt-1 rounded-md relative">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md shadow-sm border-gray-300 pl-3 placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:text-sm font-bold focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="000-00-0000">
+
+          <h2 class="absolute top-2 text-sm right-3 text-white bg-gray-400 rounded-full py-0 px-2">?</h2>
+        </div>
+      </div>
+
+
+
+
+      <!-- 7th input -->
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-9">Company-website</label>
+
+        <div class=" mt-1 rounded-md flex items-center">
+
+          <h2
+            class="text-sm font-semibold text-gray-400 border-solid border-[2px] rounded-md rounded-tr-none rounded-br-none bg-gray-100 px-[6px] py-[7px]">
+            https://</h2>
+
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md rounded-tl-none rounded-bl-none shadow-sm border-gray-300 outline-none px-4 placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:text-sm placeholder:pl-1 font-bold focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            placeholder="000-00-0000">
+
+        </div>
+      </div>
+
+      <!-- 8th input -->
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-9">Company-website</label>
+
+        <div class=" mt-1 rounded-md relative flex items-center">
+
+          <img class="absolute top-1 left-0 w-8 h-8" src="./images/icons8-google-contacts.svg" alt="">
+
+          <input type="text" name="price" id="price"
+            class="block w-full py-2 rounded-tr-none rounded-br-none rounded-md shadow-sm border-gray-300 pl-[30px] placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:text-sm placeholder:pl-1 font-bold focus:border-indigo-500 focus:mr-[1px] focus:ring-indigo-500 sm:text-sm"
+            placeholder="asghar">
+
+          <h2
+            class="flex  text-sm font-semibold text-gray-600 border-solid border-[2px] rounded-md rounded-tl-none rounded-bl-none bg-gray-100 px-3 py-[5px] ">
+
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12"></path>
+            </svg>
+            sort
+          </h2>
+        </div>
+      </div>
+
+      <!-- 8th input -->
+      <div>
+          <label for="price" class="block text-base font-semibold text-gray-400 mt-9">Card details</label>
+
+        <div class=" mt-1 rounded-md">
+          <input type="text" name="price" id="price"
+            class="block w-full rounded-md  rounded-br-none rounded-bl-none shadow-sm border-gray-300 border-b-0 pl-3 placeholder:text-gray-400 pr-9 placeholder:font-semibold placeholder:text-base  focus:border-indigo-500 focus:mb-[1px]  focus:ring-indigo-500 sm:text-sm focus:border-b-[1px]"
+            placeholder="Card number">
+        </div>
+
+        <div class="flex">
+          <input type="text" name="price" id="price"
+          class="block w-full rounded-none rounded-bl-md shadow-sm border-gray-300 pl-3 placeholder:text-gray-300 pr-9 placeholder:font-semibold placeholder:text-base focus:mr-[1px] focus:border-indigo-500 focus:ring-indigo-500 focus:rounded-none focus:rounded-bl-md sm:text-sm"
+          placeholder="MM // YY">
+
+          <input type="text" name="price" id="price"
+          class="block w-full rounded-none rounded-br-md border-l-0 shadow-sm border-gray-300 pl-3 placeholder:text-gray-300 pr-9 placeholder:font-semibold placeholder:text-base focus:border-indigo-500 focus:ring-indigo-500 focus:rounded-none focus:rounded-br-md sm:text-sm focus:border-l-[1px]"
+          placeholder="CVC">
+
+        </div>
+      </div>
+
+      <!-- 9th input -->
+      <div>
+        <label for="price" class="block text-base font-semibold text-gray-400 mt-5">Billing address</label>
+
+      <div class=" mt-1 rounded-md">
+        <input type="text" name="price" id="price"
+          class="block w-full rounded-md  rounded-br-none rounded-bl-none shadow-sm border-gray-300 pl-3 placeholder:text-gray-500 pr-9 placeholder:font-medium placeholder:text-base  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm focus:rounded-br-none focus:rounded-bl-none focus:mb-[1px]"
+          placeholder="united states">
+      </div>
+
+      <div>
+
+        <input type="text" name="price" id="price"
+        class="block w-full rounded-none rounded-bl-md rounded-br-md shadow-sm border-gray-300 border-t-0 pl-3 placeholder:text-gray-300 pr-9 placeholder:font-semibold placeholder:text-base focus:rounded-br-md focus:rounded-bl-md focus:border-indigo-500 focus:ring-indigo-500 focus:border-t-[1px] sm:text-sm"
+        placeholder="Zip // Postal code">
+
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
